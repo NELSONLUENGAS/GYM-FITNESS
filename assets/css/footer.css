@@ -1,0 +1,22 @@
+.footer .all-right {
+	font-size: 18px;
+}
+
+.footer .gf-menu-principal a {
+	color: var(--negro);
+	text-align: center;
+	font-size: 22px;
+	padding: 0 10px;
+}
+.footer .gf-menu-principal a::before,
+.footer .gf-menu-principal a::after {
+	display: none;
+}
+
+.footer .all-right {
+	font-family: var(--fuente-headings);
+	text-align: center;
+	color: var(--negro);
+	font-size: 22px;
+	display: block;
+}

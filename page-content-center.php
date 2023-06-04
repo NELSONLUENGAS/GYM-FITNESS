@@ -1,6 +1,8 @@
+<?php
 /*
-Template Name: Content-Center (No sidebars)
+    Template Name: Content-Center (No sidebars)
 */
+?>
 
 <?php get_header() ?>
 <main class="flex p-4 justify-center">
@@ -10,7 +12,4 @@ Template Name: Content-Center (No sidebars)
         ?>
     </div>
 </main>
-
-</body>
-
-</html>
+<?php get_footer() ?>

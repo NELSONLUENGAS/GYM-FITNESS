@@ -14,6 +14,7 @@
 
 /* Styles */
 @import 'assets/css/header.css';
+@import 'assets/css/footer.css';
 
 html {
 	box-sizing: border-box;
@@ -71,5 +72,5 @@ body {
 }
 
 .container {
-	width: min(95%, 1000px);
+	width: min(95%, 1100px);
 }

@@ -2,9 +2,9 @@
 <html <?php language_attributes() ?>>
 
 <head>
-    <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri() . "/assets/img/header.svg" ?>">
 
     <?php wp_head(); ?>
 </head>
@@ -15,13 +15,6 @@
             <div>
                 <img src="<?php echo get_template_directory_uri() . "/assets/img/logo.svg" ?>" alt="logo">
             </div>
-            <?php
-            $args = array(
-                'theme_locations' => 'menu-principal',
-                'container' => 'nav',
-                'container_class' => 'gf-menu-principal'
-            );
-            wp_nav_menu($args);
-            ?>
+            <?php echo do_shortcode('[menu_principal]') ?>
         </div>
     </header>

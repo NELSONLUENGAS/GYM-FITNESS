@@ -4,7 +4,4 @@
     get_template_part('templates/parts/page')
     ?>
 </main>
-
-</body>
-
-</html>
+<?php get_footer() ?>
