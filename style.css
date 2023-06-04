@@ -1,0 +1,75 @@
+/*
+    Thema Name: GYM_FITNESS
+    Theme URI: 
+    Author: Nelson Andrés Luengas Silva
+    Author URI: https://github.com/NELSONLUENGAS
+    Description: Tema diseñado con wordpress y PHP para in gimnasio 
+    Version: 1.0.0
+    Tags: Gym, PHP, Wordpress, Tailwind, Mobile first
+    Text Domain: gymfitness
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap');
+
+/* Styles */
+@import 'assets/css/header.css';
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--fuente-headings);
+}
+h1 {
+	font-size: 48px !important;
+}
+h2 {
+	font-size: 36px !important;
+}
+h3 {
+	font-size: 24px !important;
+}
+h4 {
+	font-size: 18px !important;
+}
+h5 {
+	font-size: 16px !important;
+}
+:root {
+	/* Fonts */
+	--fuente-principal: 'Raleway', sans-serif;
+	--fuente-headings: 'Staatliches', cursive;
+
+	/* Coolors */
+	--primario: #ff5b00;
+	--gris-oscuro: #2f2e2e;
+	--gris-claro: #ebebeb;
+	--blanco: #ffffff;
+	--negro: #000000;
+}
+
+body {
+	font-family: var(--fuente-principal);
+}
+
+.text-primary {
+	color: var(--primario);
+}
+
+.imagen-destacada {
+	margin-bottom: 30px;
+}
+
+.container {
+	width: min(95%, 1000px);
+}
